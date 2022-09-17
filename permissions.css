@@ -9,7 +9,7 @@ label {
     font-size: 50px;
 }
 
-input {
+.checkbox {
     margin-left: 50px;
     transform: scale(3);
 }
@@ -52,21 +52,29 @@ td {
     /* margin-right: 4rem; */
 }
 
-
-/* 
-.email {
-    color: white;
+.inputclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50vw;
-    height: 10px;
-    margin-left: 5rem;
-} */
-
-.email {
-    color: white;
 }
 
-#EmailId {
-    width: 50%;
+.email {
+    color: white;
+    font-size: 2rem;
+    margin-left: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.EmailInput {
     height: 10px;
-    margin-left: 5rem;
+    margin-left: 0px;
+    width: 5000x;
+}
+
+.EmailWidth {
+    width: 100%;
 }
