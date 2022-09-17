@@ -2,7 +2,6 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     background-color: black;
-    margin-left: 90px;
 }
 
 html {
@@ -148,12 +147,14 @@ main {
 
 .dropdown-content a:hover {
     cursor: pointer;
-    background-color: #ddd;
+    background-color: white;
+    color: black;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     cursor: pointer;
+    color: black;
 }
 
 .dropdown:hover .dropbtn {
