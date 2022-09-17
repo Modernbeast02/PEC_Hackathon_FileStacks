@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
     <title>Permissions</title>
     <link rel="icon" type="image/x-icon" href="/Images/Favicon.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/permissions.css">
+    <link rel="stylesheet" type="text/css" href="css/Permission.css">
 
     <script src="preloader.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -34,34 +35,45 @@
             <button type="button" class="menuButton pointer" style="margin-left:10%"> PROFILE</button>
         </div>
     </div>
-    
-    <table class="content">
-        <tr>
-            <td>
-                <label for="ViewDocument" id="ViewDocument">View Document</label>
-            </td>
-            <td>
-                <input type="checkbox" name="View_Document" id="View_Document" class="View_Document">
-            </td>
-        </tr>
-        <tr></tr>
-        <tr>
-            <td>
-                <label for="DownloadDocument" id="DownloadDocument">Download Document</label>
-            </td>
-            <td>
-                <input type="checkbox" name="Download_Document" id="Download_Document" class="Download_Document">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <label for="DeleteDocument" id="DeleteDocument">Delete Document</label>
-            </td>
-            <td>
-                <input type="checkbox" name="Delete_Document" id="Delete_Document" class="Delete_Document">
-            </td>
-        </tr>
-    </table>
-    <button type="button" class="confirm">Confirm</button>
+    <div class="bottle">
+        <div class="left-panel">
+            <div class="email">Email ID:</div>
+            <!-- <div class="EmailInput"> -->
+            <!-- <input type="text" name="EmailID" id="EmailID"> -->
+            <!-- </div> -->
+            <table class="content">
+                <tr>
+                    <td>
+                        <label for="ViewDocument" id="ViewDocument">View Document</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="View_Document" id="View_Document" class="View_Document">
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <label for="DownloadDocument" id="DownloadDocument">Download Document</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Download_Document" id="Download_Document" class="Download_Document">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="DeleteDocument" id="DeleteDocument">Delete Document</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Delete_Document" id="Delete_Document" class="Delete_Document">
+                    </td>
+                </tr>
+            </table>
+            <button type="button" class="confirm">Confirm</button>
+        </div>
+        <div class="background3"></div>
+    </div>
+
+
 </body>
+
 </html>
