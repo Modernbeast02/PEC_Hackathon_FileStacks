@@ -1,0 +1,41 @@
+.content{
+    margin-top: 140px;
+    color: white;
+}
+
+label{
+    margin-left: 50px;
+    font-size: 50px;
+}
+input{
+    margin-left: 50px;
+    transform: scale(3);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.confirm {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 9rem;
+    font-size: 2rem;
+    font-family: 'Bebas', sans-serif;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.confirm:hover {
+    cursor: pointer;
+    color: black;
+    background: white;
+}
