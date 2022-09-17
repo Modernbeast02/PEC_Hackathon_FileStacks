@@ -63,7 +63,7 @@ td {
 .email {
     color: white;
     font-size: 2rem;
-    margin-left: 15rem;
+    margin-left: 24rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
     width: 100%;
@@ -76,5 +76,6 @@ td {
 }
 
 .EmailWidth {
-    width: 100%;
+    height: 40px;
+    width: 500px;
 }
