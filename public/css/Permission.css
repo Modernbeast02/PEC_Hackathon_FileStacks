@@ -1,0 +1,81 @@
+.content {
+    margin-top: 100px;
+    color: white;
+    width: 50vw;
+}
+
+label {
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.checkbox {
+    margin-left: 50px;
+    transform: scale(3);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.confirm {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 9rem;
+    font-size: 2rem;
+    font-family: 'Bebas', sans-serif;
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.confirm:hover {
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+
+.background3 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background: rgb(0, 0, 0) url(/Images/Permission.gif) no-repeat center center;
+    /* margin-right: 4rem; */
+}
+
+.inputclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.email {
+    color: white;
+    font-size: 2rem;
+    margin-left: 24rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.EmailInput {
+    height: 10px;
+    margin-left: 0px;
+    width: 5000x;
+}
+
+.EmailWidth {
+    height: 40px;
+    width: 500px;
+}
